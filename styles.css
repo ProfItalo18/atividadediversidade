@@ -1,0 +1,93 @@
+:root {
+    --cor-principal: #FFCC00; /* Amarelo */
+    --cor-secundaria: #022859; /* Azul */
+    --cor-terciaria: #FF4500; /* Laranja */
+    --cor-fundo: #F5F5F5; /* Cinza claro */
+    --cor-texto: #333; /* Texto escuro */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.5;
+    margin: 0;
+}
+
+header {
+    background-color: var(--cor-principal);
+    padding: 20px;
+    text-align: center;
+}
+
+.header-image {
+    width: 60%;
+    height: center;
+    background: size 50px;
+}
+
+#cultura{
+    background-color: var(--cor-principal);
+    color: black;
+    image-rendering: auto;
+}
+
+#raça{
+    background-color: var(--cor-terciaria);
+    color: black;
+    image-rendering: auto;
+}
+
+#gênero{
+    background-color: #A0CD60;
+    color: black;
+    image-rendering: 100%;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */ 
+}
+
+nav {
+    background-color: var(--cor-secundaria);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+    text-align: justify; /* Alinha o texto à esquerda e direita */
+    margin-right: 20px; /* Espaço entre o texto e a imagem */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.playlist {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor-terciaria);
+    color: white;
+}
